@@ -16,7 +16,7 @@ It includes testing user flows such as registration, login, product browsing, ca
 📄 Test Artefacts
 | Document | Description | Format |
 |-----------|--------------|---------|
-| [Test Plan](Test_Plan.pdf) | Defines objectives, scope, and test approach | `.pdf` |
+| [Test Plan]([Test_Plan.pdf](https://github.com/Rokshana4904/Ecommerce_Testing/blob/main/Test_Plan.pdf)) | Defines objectives, scope, and test approach | `.pdf` |
 | Test Cases (Coming Soon) | Functional and UI test cases | `.xlsx` |
 | Bug Report (Coming Soon) | Logged issues with severity and priority | `.xlsx` |
 | Test Summary Report (Coming Soon) | Overview of testing execution and results | `.md` |

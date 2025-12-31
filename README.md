@@ -21,14 +21,16 @@ Prepare a Test Plan defining scope, objectives, and testing strategy
 
 Gradually extend the project toward execution, bug reporting, and automation
 
-📄 Test Artefacts
-| Document                                                          | Description                                            | Format |
-| ----------------------------------------------------------------- | ------------------------------------------------------ | ------ |
-| [Test Plan](Test_Plan.pdf)                                        | Defines testing scope, objectives, approach, and risks | `.pdf` |
-| [Test Scenarios](Test Scenarios.pdf)                              | Manual test scenarios for core application modules     | `.pdf` |
-| Test Cases                                                        | Planned for future phase                               | —      |
-| Bug Report                                                        | Planned for future phase                               | —      |
-| Test Summary Report                                               | Planned for future phase                               | —      |
+## 📄 Test Artefacts
+
+| Document | Description | Format |
+|--------|-------------|--------|
+| [Test Plan](Test_Plan.pdf) | Defines testing scope, objectives, approach, and risks | `.pdf` |
+| [Test Scenarios](Test_Scenarios_Ecommerce_AutomationExercise.pdf) | Manual test scenarios for core application modules | `.pdf` |
+| Test Cases | Planned for future phase | — |
+| Bug Report | Planned for future phase | — |
+| Test Summary Report | Planned for future phase | — |
+                          | —      |
 
 🧩 Modules Covered in Test Scenarios
 

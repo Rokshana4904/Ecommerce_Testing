@@ -1,46 +1,77 @@
 🛒 E-Commerce Web App Testing — Automation Exercise
 
-This repository contains a **Manual Testing Project** for the demo e-commerce website  
-[https://automationexercise.com](https://automationexercise.com).
+This repository contains a Manual Testing project for the demo e-commerce website
+🔗 https://automationexercise.com
 
 📘 Project Overview
-The goal of this project is to verify the key functionalities of an e-commerce platform through **manual testing**.  
-It includes testing user flows such as registration, login, product browsing, cart management, checkout, and logout.
+
+The goal of this project is to verify the key functionalities of an e-commerce platform through manual testing and test documentation.
+
+This repository includes Test Plan and Test Scenario documentation, with additional QA artefacts planned for future phases.
 
 🧠 Project Objectives
-- Validate end-to-end e-commerce workflows.  
-- Identify and document functional, UI, and performance issues.  
-- Provide complete QA documentation: Test Plan, Test Cases, Bug Report, and Summary Report.  
-- Apply professional QA methodologies and tools used in real-world testing.
+
+Understand and analyze functional requirements of an e-commerce application
+
+Create structured test documentation following QA best practices
+
+Design manual test scenarios covering core user flows
+
+Prepare a Test Plan defining scope, objectives, and testing strategy
+
+Gradually extend the project toward execution, bug reporting, and automation
 
 📄 Test Artefacts
-| Document | Description | Format |
-|-----------|--------------|---------|
-| [Test Plan](Test_Plan.pdf) | Defines objectives, scope, and test approach | `.pdf` |
-| Test Cases (Coming Soon) | Functional and UI test cases | `.xlsx` |
-| Bug Report (Coming Soon) | Logged issues with severity and priority | `.xlsx` |
-| Test Summary Report (Coming Soon) | Overview of testing execution and results | `.md` |
+Document	Description	Format
+Test Plan
+	Defines testing scope, objectives, approach, and risks	.pdf
+Test Scenarios
+	Manual test scenarios for core application modules	.pdf
+Test Cases	Planned for future phase	—
+Bug Report	Planned for future phase	—
+Test Summary Report	Planned for future phase	—
+🧩 Modules Covered in Test Scenarios
 
- 🧰 Tools & Technologies
-- **Testing Type:** Manual, Functional, Regression, UI/UX  
-- **Automation (future):** Selenium (JavaScript / Node.js)  
-- **Performance Testing:** Apache JMeter  
-- **API Testing:** Postman  
-- **Test Management:** Excel / Google Sheets  
-- **Defect Tracking:** Jira / Trello  
-- **Browsers Tested:** Chrome, Firefox, Edge  
-- **OS:** Windows 10 / 11
-  
-📅 Project Timeline
-| Phase | Dates | Deliverables |
-|-------|--------|--------------|
-| Planning & Setup | 30–31 Oct 2025 | Test Plan |
-| Test Case Design | 1–2 Nov 2025 | TestCases.xlsx |
-| Execution | 3–4 Nov 2025 | BugReport.xlsx |
-| Reporting | 5–6 Nov 2025 | TestSummaryReport.md |
+Home
+
+Products
+
+Cart
+
+Signup / Login
+
+Contact Us
+
+🧰 Tools & Technologies
+
+Testing Type: Manual Testing, Functional Testing, UI Testing
+
+Test Design: Test Plan, Test Scenarios
+
+Documentation: MS Word, PDF
+
+Browsers Considered: Chrome, Firefox
+
+OS: Windows
+
+🚀 Future Scope
+
+Convert test scenarios into detailed test cases
+
+Execute test cases and log defects
+
+Perform API testing using Postman
+
+Add basic automation scripts using Selenium
+
+Prepare a test summary report
 
 👩‍💻 Author
+
 Rokshana Talukder Ratri
-QA Engineer | Manual & Automation Testing  
+Aspiring SQA Intern
+Manual Testing | Test Documentation
 
+🔗 GitHub: https://github.com/Rokshana4904
 
+🔗 LinkedIn: https://www.linkedin.com/in/rokshana-talukder-474287262

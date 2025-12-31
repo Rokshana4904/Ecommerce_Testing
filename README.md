@@ -25,7 +25,7 @@ Gradually extend the project toward execution, bug reporting, and automation
 | Document                                                          | Description                                            | Format |
 | ----------------------------------------------------------------- | ------------------------------------------------------ | ------ |
 | [Test Plan](Test_Plan.pdf)                                        | Defines testing scope, objectives, approach, and risks | `.pdf` |
-| [Test Scenarios](Test Scenarios.pdf) | Manual test scenarios for core application modules     | `.pdf` |
+| [Test Scenarios](Test Scenarios.pdf)                              | Manual test scenarios for core application modules     | `.pdf` |
 | Test Cases                                                        | Planned for future phase                               | —      |
 | Bug Report                                                        | Planned for future phase                               | —      |
 | Test Summary Report                                               | Planned for future phase                               | —      |

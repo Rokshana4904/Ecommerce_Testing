@@ -30,7 +30,7 @@ This repository includes **Test Plan, Test Scenarios, and Signup/Login Test Case
 |--------|-------------|--------|
 | [Test Plan](Test_Plan.pdf) | Defines testing scope, objectives, approach, and risks | `.pdf` |
 | [Test Scenarios](Test%20Scenarios.pdf) | Manual test scenarios for core application modules | `.pdf` |
-| [Signup/Login Test Case Execution](Signup_Login_Test_Case_Execution.pdf) | Executed test cases with expected vs actual results | `.pdf` |
+| [Signup/Login Test Case Execution](Test Case Execution For Signup_Login Page Of Automation Website - Sheet3.pdf) | Executed test cases with expected vs actual results | `.pdf` |
 | Test Cases (Other Modules) | Planned for future phase | — |
 | Bug Report | Planned for future phase | — |
 | Test Summary Report | Planned for future phase | — |

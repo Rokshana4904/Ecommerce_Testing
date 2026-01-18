@@ -1,0 +1,277 @@
+{
+  "info": {
+    "_postman_id": "70e8cfcf-04e2-4e6d-87bd-a979fd2200e0",
+    "name": "AutomationExercise_API_Testing",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "48404086",
+    "_collection_link": "https://go.postman.co/collection/48404086-70e8cfcf-04e2-4e6d-87bd-a979fd2200e0?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Login",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200 or success\", function () {\r",
+              "  pm.expect(pm.response.code).to.be.oneOf([200]);\r",
+              "});\r",
+              "pm.test(\"Response has body\", function () {\r",
+              "  pm.expect(pm.response.text()).to.not.be.empty;\r",
+              "});\r",
+              ""
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "email",
+              "value": "{{email}}",
+              "type": "text",
+              "uuid": "544dc835-373e-462d-bf8f-8961bae3e2eb"
+            },
+            {
+              "key": "passoword",
+              "value": "{{password}}",
+              "type": "text",
+              "uuid": "2e584dbf-c969-48cb-b834-73d78539c550",
+              "disabled": true
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/verifyLogin",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "verifyLogin"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Create_Account",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 201 (User created)\", function () {\r",
+              "  pm.response.to.have.status(201);\r",
+              "});\r",
+              "\r",
+              "pm.test(\"Response message contains 'User created'\", function () {\r",
+              "  const data = pm.response.json();\r",
+              "  pm.expect(data.message).to.include(\"User created\");\r",
+              "});\r",
+              "\r",
+              "pm.test(\"Status code is 400 for missing required params\", function () {\r",
+              "  pm.response.to.have.status(400);\r",
+              "});\r",
+              "\r",
+              "pm.test(\"Response contains missing parameter message\", function () {\r",
+              "  const data = pm.response.json();\r",
+              "  pm.expect(data.message.toLowerCase()).to.include(\"missing\");\r",
+              "});\r",
+              ""
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "name",
+              "value": "Rokshana Test",
+              "type": "text",
+              "uuid": "0d729f7f-18c2-47cf-9113-07a327f9fd80"
+            },
+            {
+              "key": "email",
+              "value": " rokshana.cse@gmail.com",
+              "type": "text",
+              "uuid": "7c6ca507-90b1-4c32-a11d-6dd8f6cc08fe"
+            },
+            {
+              "key": "password",
+              "value": "MFYiwDnZ@j55TN",
+              "type": "text",
+              "uuid": "976dce65-62bb-42a5-94af-771bfa4960f6"
+            },
+            {
+              "key": "title",
+              "value": "Mrs",
+              "type": "text",
+              "uuid": "7c3c5776-6116-45be-a021-ef79e349e675"
+            },
+            {
+              "key": "birth_date",
+              "value": "16",
+              "type": "text",
+              "uuid": "0803efe6-760c-4ea8-a062-4ded1328a502"
+            },
+            {
+              "key": "birth_month",
+              "value": "November",
+              "type": "text",
+              "uuid": "b1ccf19d-087d-4a54-91b3-5f120b3699af"
+            },
+            {
+              "key": "birth_year",
+              "value": "2001",
+              "type": "text",
+              "uuid": "d30054fb-5537-4d0e-8222-5f24937eaf38"
+            },
+            {
+              "key": "firstname",
+              "value": "Rokshana",
+              "type": "text",
+              "uuid": "bd511fd3-fe12-4695-909b-2d340f234f24"
+            },
+            {
+              "key": "lastname",
+              "value": "Test",
+              "type": "text",
+              "uuid": "d7676d39-872b-41ad-8047-2a3804de86fe"
+            },
+            {
+              "key": "company",
+              "value": "DIU",
+              "type": "text",
+              "uuid": "d7b65f48-ab48-445e-b6ef-f65756aa0441"
+            },
+            {
+              "key": "address1",
+              "value": "Dhaka",
+              "type": "text",
+              "uuid": "3350469f-d8ed-4645-a8ba-50b671cbc42f"
+            },
+            {
+              "key": "address 2",
+              "value": "Gulshan",
+              "type": "text",
+              "uuid": "d96e3f2f-9c39-47b8-8c4d-293f4a2662eb"
+            },
+            {
+              "key": "country",
+              "value": "India",
+              "type": "text",
+              "uuid": "b8f1406b-9bad-4015-989b-289dc18d8631"
+            },
+            {
+              "key": "state",
+              "value": "Delhi",
+              "type": "text",
+              "uuid": "f8194b2b-1a66-4ce0-b3fe-dec1e1f1c989"
+            },
+            {
+              "key": "city",
+              "value": "Qila Rai Pithora",
+              "type": "text",
+              "uuid": "64ee101a-18ae-4d71-99ae-01ca5f3d52ad"
+            },
+            {
+              "key": "zipcode",
+              "value": "110030",
+              "type": "text",
+              "uuid": "ac4150b2-1f41-4731-860e-2495248ad8e8"
+            },
+            {
+              "key": "mobile_number",
+              "value": "7894561231",
+              "type": "text",
+              "uuid": "2ffb078e-686f-4699-91a9-7b0a8a2e14db"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/createAccount",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "createAccount"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Delete_Account",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200 (Account deleted)\", function () {\r",
+              "  pm.response.to.have.status(200);\r",
+              "});\r",
+              "\r",
+              "pm.test(\"Account deleted message shown\", function () {\r",
+              "  const data = pm.response.json();\r",
+              "  pm.expect(data.message).to.include(\"Account deleted\");\r",
+              "});\r",
+              ""
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "email",
+              "value": " rokshana.cse@gmail.com",
+              "type": "text",
+              "uuid": "bcbc50c7-97be-4866-994b-04d284f983bf"
+            },
+            {
+              "key": "password",
+              "value": "MFYiwDnZ@j55TN",
+              "type": "text",
+              "uuid": "19dcddc3-8499-4ff1-afc6-dc4e3cf1db26"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/deleteAccount",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "deleteAccount"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

@@ -31,7 +31,7 @@ This repository includes **Test Plan, Test Scenarios, and Signup/Login Test Case
 | [Test Plan](Test_Plan.pdf) | Defines testing scope, objectives, approach, and risks | `.pdf` |
 | [Test Scenarios](Test%20Scenarios.pdf) | Manual test scenarios for core application modules | `.pdf` |
 | [Signup/Login Test Case Execution](Test%20Case%20Execution%20For%20Signup_Login%20Page%20Of%20Automation%20Website%20-%20Sheet3.pdf) | Executed test cases with expected vs actual results | `.pdf` |
-| [API Test Case Execution](API_Test_Case_Execution.pdf) | API test cases and execution results for Signup/Login module | `.pdf` |
+| [API Test Case Execution](Ecommerce_Testing/blob/main/Test%20Case%20Execution%20For%20Signup_Login%20Page%20Of%20Automation%20Website%20-%20API_Test_Case_Execution.pdf) | API test cases and execution results for Signup/Login module | `.pdf` |
 | [Postman API Collection](API_Testing/AutomationExercise_API_Testing.postman_collection.json) | Postman collection containing API requests and test scripts | `.json` |
 | [Postman Environment](API_Testing/AutomationExercise_Env.postman_environment.json) | Postman environment variables used during API testing | `.json` |
 | Test Cases (Other Modules) | Planned for future phase | — |
